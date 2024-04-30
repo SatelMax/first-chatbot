@@ -1,0 +1,17 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hola", "How are you", "Hi","Hey", "Hello", "Good day"],
+     "responses": ["Hello", "I am fine", "What's up?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Have a nice day"],
+     "responses": ["See you!", "Have a nice day", "Bye"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you"],
+     "responses": ["My pleasure", "You're Welcome"],
+     "context": [""]
+    }
+]}
